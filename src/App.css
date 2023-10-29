@@ -1,7 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
 .App {
   background-color: black;
 }
-
 .MastersProfile {
   margin: 0 auto;
   justify-content: center;
@@ -9,4 +10,18 @@
   flex-wrap: wrap;
   display: flex;
   gap: 30px;
+}
+
+.Heading {
+  color: white;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 42px;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 768px) {
+  .Heading {
+    font-size: 30px;
+  }
 }

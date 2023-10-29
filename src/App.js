@@ -5,6 +5,9 @@ import Profiles from "./components/Profiles";
 function App() {
   return (
     <div className="App">
+      <div className="Heading">
+        <h1>Our Masters</h1>
+      </div>
       <div className="MastersProfile">
         <Profiles
           imageSrc="LexFridman.png"
