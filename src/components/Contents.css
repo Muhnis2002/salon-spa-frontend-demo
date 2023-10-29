@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+.Contents {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  gap: 5%;
+}
+
+.About {
+  width: 50%;
+  padding-left: 4%;
+  padding-top: 4%;
+  padding-right: 2%;
+  padding-bottom: 4%;
+}
+
+.SpaTitle {
+  color: white;
+  font-size: 42px;
+  font-weight: 400;
+}
+
+.Details {
+  font-size: 32px;
+  font-weight: 200;
+}
+
+.LearnMoreBtn {
+    background-color: black;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 22px;
+    padding: 22px 38px;
+    border: 2px solid white;
+}
+.Services {
+  width: 50%;
+  padding-left: 2%;
+  padding-top: 4%;
+  padding-right: 4%;
+  padding-bottom: 4%;
+}
+
+.ServDesc {
+  font-size: 32px;
+  font-weight: 200;
+}
+@media only screen and (max-width: 950px) {
+  .SpaTitle {
+    font-size: 32px;
+  }
+  .Contents {
+    flex-wrap: wrap;
+  }
+
+  .About {
+    width: 100%;
+    padding-left: 4%;
+    padding-top: 4%;
+    padding-right: 4%;
+    padding-bottom: 2%;
+  }
+
+  .Services {
+    width: 100%;
+    padding-left: 4%;
+    padding-top: 2%;
+    padding-right: 4%;
+    padding-bottom: 4%;
+  }
+
+  .Details {
+    font-size: 28px;
+  }
+
+  .ServDesc {
+    font-size: 28px;
+  }
+}

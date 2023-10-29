@@ -1,10 +1,12 @@
 import "./App.css";
 import React from "react";
 import Profiles from "./components/Profiles";
+import Contents from "./components/Contents";
 
 function App() {
   return (
     <div className="App">
+      <Contents />
       <div className="Heading">
         <h1>Our Masters</h1>
       </div>
