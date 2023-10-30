@@ -4,12 +4,11 @@ import Profiles from "./components/Profiles";
 import Contents from "./components/Contents";
 import Intro from "./components/Intro";
 import  "bootstrap/dist/css/bootstrap.min.css";
-import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+ 
       <Intro />
       <Contents />
       <div className="Heading">
