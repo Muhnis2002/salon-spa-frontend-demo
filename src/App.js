@@ -3,6 +3,9 @@ import React from "react";
 import Profiles from "./components/Profiles";
 import Contents from "./components/Contents";
 
+import ContactForm from "./components/ContactForm";
+
+
 function App() {
   return (
     <div className="App">
@@ -42,6 +45,9 @@ function App() {
           Name="Elon Musk"
         />
       </div>
+    
+      <ContactForm/>
+    
     </div>
   );
 }

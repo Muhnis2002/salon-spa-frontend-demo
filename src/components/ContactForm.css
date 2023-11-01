@@ -1,0 +1,113 @@
+.footer-container {
+    display: flex;
+    background-image: url('../../public/assets/black-white-minimal-portrait.jpg'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #fff;
+    padding: 40px 0; 
+  }
+  
+  .footer {
+    flex: 1; 
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 0 200px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex-basis: calc(33.33% - 20px);
+    text-align: left;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .contact-form {
+    flex-basis: calc(33.33% - 20px);
+    text-align: left;
+    padding: 20px;
+  }
+  
+  .contact-form-content {
+    
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #da098a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  @media (max-width: 768px) {
+    .footer-section {
+      flex-basis: 100%;
+      margin-top: 20px;
+    }
+  
+    .contact-form {
+      flex-basis: 100%;
+    }
+  }
+  .p1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    
+  }
+  .p2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    padding-top: 5px;
+    padding-bottom: 35px;
+  }
+  
+  
