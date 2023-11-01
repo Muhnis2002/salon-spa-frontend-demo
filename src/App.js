@@ -5,6 +5,9 @@ import Contents from "./components/Contents";
 import Intro from "./components/Intro";
 import  "bootstrap/dist/css/bootstrap.min.css";
 
+import ContactForm from "./components/ContactForm";
+
+
 function App() {
   return (
     <div className="App">
@@ -46,6 +49,9 @@ function App() {
           Name="Elon Musk"
         />
       </div>
+    
+      <ContactForm/>
+    
     </div>
   );
 }
