@@ -2,10 +2,14 @@ import "./App.css";
 import React from "react";
 import Profiles from "./components/Profiles";
 import Contents from "./components/Contents";
+import Intro from "./components/Intro";
+import  "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
     <div className="App">
+ 
+      <Intro />
       <Contents />
       <div className="Heading">
         <h1>Our Masters</h1>
